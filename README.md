@@ -1,4 +1,6 @@
 # Stage
+# Planning
+
 * Initial meeting (younes et boukouchi) ( 13, february mercredi apres-midi)
 	- Theme
 	- Meetings planning
