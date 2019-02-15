@@ -1,0 +1,47 @@
+location filters : 
+ville,pays
+date debut
+date fin
+age du conducteur 
+code promo
+
+
+location d'une voiture :
+-> options
+-> agence 
+-> voiture 
+-> protection
+-> date debut , date fin 
+-> lieu de Prise en charge
+-> Restitution
+-> type de location
+
+
+resultats voiture :
+-> nom
+-> description
+-> options
+-> prix de location 
+-> prise en charg e
+-> protection
+-> caracteriqtique 
+-> image 
+-> type de voiture
+
+client :
+-> prenom,nom
+-> mail 
+-> date naissance 
+-> telephone 
+
+vol-client :
+-> client
+-> numero de vol
+
+user :
+-> login (mail)
+-> password
+
+reservation : 
+-> client
+-> code de confirmation
