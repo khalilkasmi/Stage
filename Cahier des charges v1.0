@@ -39,6 +39,7 @@ o	S’inscrire
 		Mot de passe
 		Date de naissance
 		Téléphone
+		CIN
 o	S’authentifier
 		Login (username|mail)
 		Password
@@ -94,6 +95,7 @@ o	Consulter et modifier son profile
 		Date de naissance
 		Téléphone
 		Image du profile
+		nombre de locations réalisées
 o	Consulter et ajouter un/des reviews 
 o	Consulter ses réservations
 		Réservation à venir (annuler/reporter)
@@ -101,6 +103,50 @@ o	Consulter ses réservations
 o	Supprimer son compte
 o	Ajouter une réclamation ou une plainte
 o	Louer sa voiture
+
+
+Cote Entreprise
+-	Entreprise peut s’inscrire :
+	o	Nom
+	o	Email
+	o	Mot de passe
+	o	Statut juridique
+	o	Siège social
+	o	Téléphone
+	o	Description
+-	Une entreprise peut avoir plusieurs agences
+	o	Numéro
+	o	Entreprise
+	o	Ville
+	o	Adresse
+	o	Téléphone
+	o	Nombre total de voitures
+	o	Nombre de voitures disponibles
+	o	Nombre de voitures louées
+-	Chaque agence dispose des voitures
+	o	Identifiant : matricule
+	o	agence
+	o	type
+	o	marque
+	o	nombre de places
+	o	couleur
+	o	description
+	o	année
+	o	état
+	o	assurance
+	o	statut (loué, disponible, en phase d’entretien)
+-	Une voiture peut être louée par une seul client
+	o	Code location
+	o	Matricule de la voiture
+	o	Identifiant du client locataire
+	o	Date de début de location
+	o	Date de fin de location
+	o	Dommage après location
+	o	Prix de location
+	o	Option de protection choisie
+	o	Lieu de restitution
+	o	Agence (lieu de location – aéroport )
+
 
 
 
