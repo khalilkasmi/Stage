@@ -28,3 +28,79 @@ fin de location, dommage après location. Un client peut aussi s’enregistrer f
 son adresse, téléphone, CIN, email, mot de passe, code promotionnel, nombre de locations réalisées, etc.
 
 
+# coté client
+
+-	Client 
+o	S’inscrire
+		Nom
+		Prénom
+		Mail
+		Adresse (ville, rue, zip)
+		Mot de passe
+		Date de naissance
+		Téléphone
+o	S’authentifier
+		Login (username|mail)
+		Password
+o	Chercher une location
+		Ville 
+		Date de retrait 
+		Date de restitution 
+		Age 
+		Code promo (optionnel)
+		Objet de réservation (loisir, business)
+o	Restaurer son mot de passe
+o	Passer une commande
+		Spécifier le numéro du vol (optionnel)
+		Les infos du paiement (optionnel)
+		S’il n’est pas authentifié il doit saisir les infos personnelles et il va s’inscrire automatiquement 
+		Accepter les termes
+o	Confirmer la commande par mail
+		Cliquer sur un lien de confirmation reçu par mail
+o	Chercher une réservation
+		Mail
+		Code de confirmation
+o	Choisir l'unité de prix (DH, EURO, DOLLAR, …)
+o	Filtrer la recherche par
+		Prix
+		Type de location
+		Société de location
+		Type de voiture
+		Les options de la voiture 
+		La capacité de la voiture
+		Type de protection
+		Le réservoir (Plein / vide)
+		Heure de disponibilité d'agence de location 
+o	Consulter les résultats
+		Image du voiture 
+		Société de location
+		Les options du voiture 
+		Les spécifications
+		Le prix 
+		La protection
+		Consulter les résultats sous forme d’une carte
+		Le site va calculer la distance entre le client et l’agence
+o	Lui proposer les destinations les plus visitées inclus 
+		Les hôtels
+		Les restaurants 
+		Les monuments touristiques 
+o	Lui proposer les agences qui proposent un prix plus bas et sponsoriseurs
+o	Consulter et modifier son profile 
+		Nom
+		Prénom
+		Mail
+		Adresse (ville, rue, zip)
+		Mot de passe
+		Date de naissance
+		Téléphone
+		Image du profile
+o	Consulter et ajouter un/des reviews 
+o	Consulter ses réservations
+		Réservation à venir (annuler/reporter)
+		Réservations annulées
+o	Supprimer son compte
+o	Ajouter une réclamation ou une plainte
+o	Louer sa voiture
+
+
+
