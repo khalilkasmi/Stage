@@ -1,75 +1,75 @@
-									Cahier des charges
+						Cahier des charges
 
 Le projet est un annuaire de recherche des agences de location des voitures dans tout le Maroc.
-L’objectif premier du site web est d’offrir aux visiteurs la possibilité de chercher des locations, de trier les résultats des recherches afin de leur permettre de passer des réservations de voitures.
-Le site réservera un espace pour que les entreprises puissent gérer leurs agences et voitures.
+Lâ€™objectif premier du site web est dâ€™offrir aux visiteurs la possibilitÃ© de chercher des locations, de trier les rÃ©sultats des recherches afin de leur permettre de passer des rÃ©servations de voitures.
+Le site rÃ©servera un espace pour que les entreprises puissent gÃ©rer leurs agences et voitures.
 Nous nous concentrerons sur les entreprises qui offrent leurs services au Maroc 
-Une entreprise de location doit être conforme aux critères du site pour pouvoir bénéficier des services du site web
-L’age du conducteur doit être au moins 21 ans.
-Les visiteurs du site web sont de 5 sortes : les visiteurs qui ne se sont pas encore inscrits, les clients inscrits, les entreprises, les agences appartenant à une entreprise et le gérant du site web.
-Un visiteur peut s'inscrire à tout moment en tant qu'entreprise ou en tant qu'abonné sur le site web.
-Si le visiteur choisit l'option d'inscription en tant qu'abonné, il doit fournir ses informations personnelles comme : son Nom, Prénom, Email, Date de naissance, Téléphone, Mot de passe, ...
-S'il choisit l'option d'inscription en tant qu'entreprise, il doit fournir les informations relatives à l'entreprise comme : sa Raison sociale, Adresse, Logo, Télephone/Fax, Ville, Statut juridique, Description, Email, Mot de passe et les Documents nécessaires pour la vérification (sous forme de fichiers)
-Le système envoie un email au visiteur, lui permettant de confirmer l'inscription
-Un abonné peut se connecter soit en tant qu'abonné, soit en tant qu'entreprise, soit en tant qu'agence, soit en tant que gérant à tout moment sur le site web en fournissant le Nom d'utilisateur/Email et le Mot de passe.
-Un abonné peut réinitialiser son mot de passe, en cas d'oubli, en fournissant son adresse email.
-Le système envoie un email à l'abonné ou à l'entreprise, lui permettant de réinitialiser son mot de passe.
-Pendant la réinitialisation, l'abonné doit fournir un nouveau mot de passe autre que l'ancien et le confirmer.
-Un abonné connecté peut se déconnecter à tout moment.
-Un visiteur comme un abonné peut chercher une location en tenant compte des critères suivants : Lieu de restitution, Code promotionnel, Age du conducteur,...
-Il (Visiteur ou Abonné) peut consulter les résultats en ayant la possibilité de les filtrer selon les critères suivants : Types de voitures, Sociétés de location, Spécifications, Lieu de prise en charge, Capacité,...
-Il (Visiteur ou Abonné) peut passer une réservation en vérifiant les conditions suivantes : 
-- Si ce n'est pas déjà fait, le visiteur doit s'inscrire en tant qu'abonné, puis confirmer son inscription avant de passer une réservation
-- Si ce n'est pas déjà fait, l'abonné doit se connecter (s'authentifier) avant de passer une réservation
-Après celà, l'abonné doit fournir les informations de paiement suivantes : Numéro de carte de crédit, Cryptogramme, Date de validité,...
-L'abonné peut fournir des informations sur le chauffeur : son Nom, Prénom, Email, Date de naissance, Télephone,...
-L'abonné peut éventuellement ajouter une information supplémentaire sur le numéro de vol (au cas où il veut se rendre à l'aéroport)
-L'abonné aura la possibilité de choisir une option de protection.
-Une fois la réservation a été engagée, le système vérifie la validité des informations de paiement :
-- Si les informations de paiement sont correctes, le système envoie un email à l'abonné, lui permettant de valider la réservation.
-- Si les informations de paiement ne sont pas correctes, le système demande à l'abonné de rentrer de nouvelles informations de paiement valides.
-Une fois la réservation validée, le système envoie un email de confirmation avec les détails de la réservation à l'abonné, comme quoi la réservation a été réussie.
-Un visiteur comme un abonné peut contacter le service client du site web.
-Un abonné a la possibilité d'ajouter des avis sur une voiture, sur une agence ou sur une entreprise.
-Un abonné peut écrire des plaintes adressées au gérant du site web.
-Le gérant essaiera de trouver des solutions aux différentes plaintes lui étant adressées.
-Un abonné aura la possibilité de gérer son profil et peut à tout moment supprimer son compte.
-Un abonné peut consulter le profil d'une Entreprise.
-Un abonné peut demander du Code Promotionnel sur le profil de l'Entreprise (Une Entreprise peut fournir du code promotionnel à un abonné).
-Une entreprise peut aussi se connecter à tout moment sur le site web en fournissant son Nom d'utilisateur/Email et son Mot de passe.
-Une entreprise connectée peut se déconnecter à tout moment du site web.
-Une entreprise peut gérer des agences : 
+Une entreprise de location doit Ãªtre conforme aux critÃ¨res du site pour pouvoir bÃ©nÃ©ficier des services du site web
+Lâ€™age du conducteur doit Ãªtre au moins 21 ans.
+Les visiteurs du site web sont de 5 sortes : les visiteurs qui ne se sont pas encore inscrits, les clients inscrits, les entreprises, les agences appartenant Ã  une entreprise et le gÃ©rant du site web.
+Un visiteur peut s'inscrire Ã  tout moment en tant qu'entreprise ou en tant qu'abonnÃ© sur le site web.
+Si le visiteur choisit l'option d'inscription en tant qu'abonnÃ©, il doit fournir ses informations personnelles comme : son Nom, PrÃ©nom, Email, Date de naissance, TÃ©lÃ©phone, Mot de passe, ...
+S'il choisit l'option d'inscription en tant qu'entreprise, il doit fournir les informations relatives Ã  l'entreprise comme : sa Raison sociale, Adresse, Logo, TÃ©lephone/Fax, Ville, Statut juridique, Description, Email, Mot de passe et les Documents nÃ©cessaires pour la vÃ©rification (sous forme de fichiers)
+Le systÃ¨me envoie un email au visiteur, lui permettant de confirmer l'inscription
+Un abonnÃ© peut se connecter soit en tant qu'abonnÃ©, soit en tant qu'entreprise, soit en tant qu'agence, soit en tant que gÃ©rant Ã  tout moment sur le site web en fournissant le Nom d'utilisateur/Email et le Mot de passe.
+Un abonnÃ© peut rÃ©initialiser son mot de passe, en cas d'oubli, en fournissant son adresse email.
+Le systÃ¨me envoie un email Ã  l'abonnÃ© ou Ã  l'entreprise, lui permettant de rÃ©initialiser son mot de passe.
+Pendant la rÃ©initialisation, l'abonnÃ© doit fournir un nouveau mot de passe autre que l'ancien et le confirmer.
+Un abonnÃ© connectÃ© peut se dÃ©connecter Ã  tout moment.
+Un visiteur comme un abonnÃ© peut chercher une location en tenant compte des critÃ¨res suivants : Lieu de restitution, Code promotionnel, Age du conducteur,...
+Il (Visiteur ou AbonnÃ©) peut consulter les rÃ©sultats en ayant la possibilitÃ© de les filtrer selon les critÃ¨res suivants : Types de voitures, SociÃ©tÃ©s de location, SpÃ©cifications, Lieu de prise en charge, CapacitÃ©,...
+Il (Visiteur ou AbonnÃ©) peut passer une rÃ©servation en vÃ©rifiant les conditions suivantes : 
+- Si ce n'est pas dÃ©jÃ  fait, le visiteur doit s'inscrire en tant qu'abonnÃ©, puis confirmer son inscription avant de passer une rÃ©servation
+- Si ce n'est pas dÃ©jÃ  fait, l'abonnÃ© doit se connecter (s'authentifier) avant de passer une rÃ©servation
+AprÃ¨s celÃ , l'abonnÃ© doit fournir les informations de paiement suivantes : NumÃ©ro de carte de crÃ©dit, Cryptogramme, Date de validitÃ©,...
+L'abonnÃ© peut fournir des informations sur le chauffeur : son Nom, PrÃ©nom, Email, Date de naissance, TÃ©lephone,...
+L'abonnÃ© peut Ã©ventuellement ajouter une information supplÃ©mentaire sur le numÃ©ro de vol (au cas oÃ¹ il veut se rendre Ã  l'aÃ©roport)
+L'abonnÃ© aura la possibilitÃ© de choisir une option de protection.
+Une fois la rÃ©servation a Ã©tÃ© engagÃ©e, le systÃ¨me vÃ©rifie la validitÃ© des informations de paiement :
+- Si les informations de paiement sont correctes, le systÃ¨me envoie un email Ã  l'abonnÃ©, lui permettant de valider la rÃ©servation.
+- Si les informations de paiement ne sont pas correctes, le systÃ¨me demande Ã  l'abonnÃ© de rentrer de nouvelles informations de paiement valides.
+Une fois la rÃ©servation validÃ©e, le systÃ¨me envoie un email de confirmation avec les dÃ©tails de la rÃ©servation Ã  l'abonnÃ©, comme quoi la rÃ©servation a Ã©tÃ© rÃ©ussie.
+Un visiteur comme un abonnÃ© peut contacter le service client du site web.
+Un abonnÃ© a la possibilitÃ© d'ajouter des avis sur une voiture, sur une agence ou sur une entreprise.
+Un abonnÃ© peut Ã©crire des plaintes adressÃ©es au gÃ©rant du site web.
+Le gÃ©rant essaiera de trouver des solutions aux diffÃ©rentes plaintes lui Ã©tant adressÃ©es.
+Un abonnÃ© aura la possibilitÃ© de gÃ©rer son profil et peut Ã  tout moment supprimer son compte.
+Un abonnÃ© peut consulter le profil d'une Entreprise.
+Un abonnÃ© peut demander du Code Promotionnel sur le profil de l'Entreprise (Une Entreprise peut fournir du code promotionnel Ã  un abonnÃ©).
+Une entreprise peut aussi se connecter Ã  tout moment sur le site web en fournissant son Nom d'utilisateur/Email et son Mot de passe.
+Une entreprise connectÃ©e peut se dÃ©connecter Ã  tout moment du site web.
+Une entreprise peut gÃ©rer des agences : 
 - Elle peut chercher une agence
-- Elle peut ajouter de nouvelles agences en fournissant leurs informations telles que : Ville, Adresse, Email, Mot de passe, Télephone.
-Pendant l'ajout de l'agence, l'entreprise peut lui affecter des voitures. Le nombre total de voitures de l'agence de l'entreprise s'incrémente à chaque fois qu'une voiture lui est affectée.
-Le nombre total d'agences de l'Entreprise s'incrémente à chaque fois qu'une agence a été ajoutée.
-- Elle peut modifier une agence : modifier son profil, lui affecter et désaffecter des voitures.
+- Elle peut ajouter de nouvelles agences en fournissant leurs informations telles que : Ville, Adresse, Email, Mot de passe, TÃ©lephone.
+Pendant l'ajout de l'agence, l'entreprise peut lui affecter des voitures. Le nombre total de voitures de l'agence de l'entreprise s'incrÃ©mente Ã  chaque fois qu'une voiture lui est affectÃ©e.
+Le nombre total d'agences de l'Entreprise s'incrÃ©mente Ã  chaque fois qu'une agence a Ã©tÃ© ajoutÃ©e.
+- Elle peut modifier une agence : modifier son profil, lui affecter et dÃ©saffecter des voitures.
 - Elle peut supprimer une agence
 
-L'agence fournit aussi des informations calculées comme : le Nombre total de voiture, Nombre de voitures disponibles, Nombre de voitures louées 
-Une entreprise peut gérer des voitures :
+L'agence fournit aussi des informations calculÃ©es comme : le Nombre total de voiture, Nombre de voitures disponibles, Nombre de voitures louÃ©es 
+Une entreprise peut gÃ©rer des voitures :
 - Elle peut chercher une voiture
-- Elle peut ajouter de nouvelles voitures en fournissant leurs informations telles que : Matricule, Type, Marque, Nombre de places, Couleur, Description, Annee, Etat, Assurance (sous forme de fichiers), Statut (louée, disponible, en révision)
-Le gérant doit vérifier l'assurance de la voiture avant de la rendre disponible.
-Le nombre total de voitures de l'Entreprise s'incrémente à chaque fois qu'une voiture a été ajoutée.
+- Elle peut ajouter de nouvelles voitures en fournissant leurs informations telles que : Matricule, Type, Marque, Nombre de places, Couleur, Description, Annee, Etat, Assurance (sous forme de fichiers), Statut (louÃ©e, disponible, en rÃ©vision)
+Le gÃ©rant doit vÃ©rifier l'assurance de la voiture avant de la rendre disponible.
+Le nombre total de voitures de l'Entreprise s'incrÃ©mente Ã  chaque fois qu'une voiture a Ã©tÃ© ajoutÃ©e.
 - Elle peut modifier une voiture : modifier ses informations, modifier son statut.
-Si une voiture a un statut "louée" ou "en révision", l'Entreprise doit spécifier une date à laquelle elle sera probablement (s'il n'y a pas d'imprévu) de nouveau disponible.
-A chaque location d'une voiture, le statut de celle-ci change automatiquement de "disponible" à "louée".
+Si une voiture a un statut "louÃ©e" ou "en rÃ©vision", l'Entreprise doit spÃ©cifier une date Ã  laquelle elle sera probablement (s'il n'y a pas d'imprÃ©vu) de nouveau disponible.
+A chaque location d'une voiture, le statut de celle-ci change automatiquement de "disponible" Ã  "louÃ©e".
 A chaque restitution d'une voiture, l'Entreprise change manuellement son statut en "disponible".
-A chaque fin de révision d'une voiture, l'Entreprise change manuellement son statut en "disponible".
+A chaque fin de rÃ©vision d'une voiture, l'Entreprise change manuellement son statut en "disponible".
 - Elle peut supprimer des voitures
 
-Une Entreprise peut gérer son profil.
+Une Entreprise peut gÃ©rer son profil.
 
-Le gérant peut aussi se connecter à tout moment sur le site web en fournissant son Nom d'Utilisateur/Email et son Mot de passe.
-Le gérant gère les inscriptions des entreprises :
-- Il peut approuver comme désapprouver la demande d'inscription d'une entreprise
-- Il peut approuver comme désapprouver l'ajout d'une agence à l'entreprise.
+Le gÃ©rant peut aussi se connecter Ã  tout moment sur le site web en fournissant son Nom d'Utilisateur/Email et son Mot de passe.
+Le gÃ©rant gÃ¨re les inscriptions des entreprises :
+- Il peut approuver comme dÃ©sapprouver la demande d'inscription d'une entreprise
+- Il peut approuver comme dÃ©sapprouver l'ajout d'une agence Ã  l'entreprise.
 
-Le gérant gère les comptes :
-- Il peut sanctionner un compte, lui priver de certaines fonctionnalités du site web.
+Le gÃ©rant gÃ¨re les comptes :
+- Il peut sanctionner un compte, lui priver de certaines fonctionnalitÃ©s du site web.
 - Il peut supprimer un compte
-- Il peut ajouter un autre gérant
+- Il peut ajouter un autre gÃ©rant
 
-Le système peut envoyer régulièrement des emails de nouveautés aux abonnés.
-Le système peut offrir du support parallèlement à la navigation du visiteur.
+Le systÃ¨me peut envoyer rÃ©guliÃ¨rement des emails de nouveautÃ©s aux abonnÃ©s.
+Le systÃ¨me peut offrir du support parallÃ¨lement Ã  la navigation du visiteur.
