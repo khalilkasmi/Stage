@@ -1,5 +1,5 @@
 use this branch to share docs with contributers  
-* check out other branches
+* check out other branchs
 # Planning
 
 * Initial meeting (younes et boukouchi) ( 13, february mercredi apres-midi)
