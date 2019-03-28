@@ -1,0 +1,116 @@
+					Use Case Draft
+
+* Acteurs :
+	- Utilisateur
+	- Entreprise de location
+	- Visiteur
+	- Abonné (ayant un compte sur le site)
+	- Client
+	- Agence
+	- Gérant
+	- Système vérificateur
+
+* Cas d'utilisations :
+	- Utilisateur :
+	
+	- Visiteur :
+		# S'inscrire (Obligatoire à l'exécution de : "Se connecter en tant qu'abonné", "Réinitialiser le mot de passe", "Entamer une réservation", "Envoyer un email de confirmation d'inscription au visiteur") :
+			* S'inscrire en tant que client
+			* S'inscrire en tant qu'entreprise
+		# Chercher une location (Obligatoire à l'exécution de : "Consulter les résultats de recherches", "Entamer une réservation")
+		# Consulter les résultats de recherches
+		# Filtrer les recherches (Eventuel dans l'exécution de : "Consulter les résultats de recherches")
+		# Entamer une réservation
+		# Contacter le service client
+
+	- Abonné :
+		# Se connecter en tant qu'abonné (Obligatoire à l'exécution de : "Se déconnecter en tant qu'abonné", "Gérer son profil", "Supprimer son compte", "Entamer une réservation", "Ajouter des avis", "Adresser une plainte au gérant", "Consulter le profil d'une entreprise", "Attribuer des points", "Gérer les agences", "Gérer les voitures", "Consulter toutes les réservations", "Chercher une réservation", "Chercher une location en cours", "Chercher une voiture parmi son parc de voiture", "Enregistrer la prise en charge d'une location", "Enregistrer la restitution d'une voiture")
+		# Réinitialiser le mot de passe (Obligatoire à l'exécution de : "Envoyer un email de réinitialisation de mot de passe à l'abonné")
+		# Se déconnecter en tant qu'abonné
+		# Gérer son profil
+		# Supprimer son compte
+
+	- Client :
+		# Chercher une location (Obligatoire à l'exécution de : "Consulter les résultats de recherches", "Entamer une réservation")
+		# Consulter les résultats de recherches
+		# Filtrer les recherches (Eventuel dans l'exécution de : "Consulter les résultats de recherches")
+		# Entamer une réservation (Obligatoire à l'exécution de : "Fournir les informations de paiement","Fournir des informations sur le chauffeur", "Choisir une option de protection", "Engager une réservation")  
+		# Fournir les informations de paiement
+		# Fournir des informations sur le chauffeur
+		# Ajouter éventuellement une information supplémentaire sur le numéro de vol (Eventuel dans l'exécution de : "Entamer une réservation"
+		# Choisir une option de protection
+		# Engager une réservation (Obligatoire à l'exécution de : "Demander une vérification des informations de paiement au système vérificateur", "Valider une réservation")
+		# Valider une réservation (Obligatoire à l'exécution de : "Envoyer un email de réussite de la réservation au client")
+		# Contacter le service client
+		# Ajouter des avis :
+			* Sur une entreprise
+			* Sur une agence
+			* Sur une voiture
+		# Adresser une plainte au gérant
+		# Consulter le profil d'une entreprise
+		# Demander un code promotionnel sur le profil de l'entreprise
+		# Attribuer des points :
+			* à une entreprise
+			* à une agence
+			* à une voiture
+
+	- Entreprise :
+		# Gérer les agences :
+			* Chercher une agence
+			* Ajouter une agence (Obligatoire à l'exécution de : "Gérer les ajouts d'agences"
+			* Affecter des voitures à une agence (Eventuel dans l'exécution de : "Ajouter une agence", "Modifier une agence")
+			* Désaffecter des voitures à une agence (Eventuel dans l'exécution de : "Modifier une agence")
+			* Modifier une agence
+			* Supprimer une agence
+		# Gérer les voitures :
+			* Chercher une voiture
+			* Ajouter une voiture
+			* Modifier une voiture :
+				- Changer le statut
+				- Spécifier la date de disponibilité
+			* Supprimer une voiture
+		# Chercher une réservation :
+			* Consulter toutes les réservations
+		# Chercher une location en cours :
+			* Consulter toutes les locations en cours
+
+	- Agence :
+		# Chercher une voiture parmi son parc de voiture
+		# Chercher une réservation :
+			* Consulter toutes les réservations
+		# Chercher une location en cours :
+			* Consulter toutes les locations en cours
+		# Enregistrer la prise en charge d'une location (Obligatoire à l'exécution de : "Enregistrer la restitution d'une voiture")
+		# Enregistrer la restitution d'une voiture
+
+	- Gérant :
+		# Se connecter en tant que gérant (Obligatoire à l'exécution de : "Se déconnecter en tant que gérant", "Vérifier l'assurance d'une voiture", "Gérer les inscriptions des entreprise", "Gérer les ajouts d'agences", "Gérer les comptes", "Gérer les gérants")
+		# Se déconnecter en tant que gérant
+		# Vérifier l'assurance d'une voiture
+		# Gérer les inscriptions des entreprise :
+			* Approuver
+			* Désapprouver
+		# Gérer les ajouts d'agences :
+			* Approuver
+			* Désapprouver
+		# Gérer les comptes :
+			* Pénaliser un compte :
+				- Pénaliser un client
+				- Pénaliser une entreprise
+			* Supprimer un compte
+		# Gérer les gérants :
+			* Chercher un gérant
+			* Ajouter un gérant
+
+	- Système :
+		# Envoyer un email de confirmation d'inscription au visiteur (Envoyer un email de confirmation)
+		# Envoyer un email de réinitialisation de mot de passe à l'abonné (Envoyer un email de réinitialisation)
+		# Demander une vérification des informations de paiement au système vérificateur (Demander une vérification) (Obligatoire à l'exécution de : "Envoyer les réponses de vérification des informations de paiement")
+		# Recevoir les réponses de vérification des informations de paiement (Recevoir réponse)
+		# Envoyer un email de validation de réservation au client (Envoyer un email de validation) (Obligatoire à l'exécution de : "Valider une réservation" / Eventuel dans l'exécution de : "Recevoir les réponses de vérification des informations de paiement")
+		# Envoyer un email de réussite de la réservation au client (Envoyer un email de réussite)
+		# Envoyer des emails de nouveautés aux clients (Envoyer emails de nouveautés)
+		# Offrir du support parallèlement à la navigation du visiteur ou du client (Offrir support)
+
+	- Système vérificateur :
+		# Envoyer les réponses de vérification des informations de paiement (Envoyer réponse de vérification) (Obligatoire à l'exécution de : "Recevoir les réponses de vérification des informations de paiement")
