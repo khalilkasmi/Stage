@@ -1,0 +1,18 @@
+
+
+* Entreprise :
+	Une entreprise de location peut ouvrir un compte sur le site web. 
+	Elle peut gérer une ou plusieures agences. Elle crée un compte pour chaque agence.
+	L'Entreprise peut aussi gérer ses voitures.
+
+* Client :
+	Un client est un visiteur déjà inscrit au site web.
+	Il peut passer des réservations et bénéficier des autres services du site web
+
+* Gérant :
+	Un gérant est en quelque sorte le controleur du site. 
+	Il contrôle les nouvelles inscriptions sur le site
+
+* Système :
+	Le système est un annuaire de recherches de location de voitures.
+	Il permet aux clients de trouver des locations et aux entreprises de location de proposer leurs services de location.
